@@ -11,8 +11,10 @@
   
     document.querySelector("form#contact_form")
         .addEventListener("submit", function(ev) {
-            ev.preventDefault();
-            handleFormSubmit(this);
+            errors = handleFormSubmit(this);
+            if (errors) {
+              ev.preventDefault();
+            }
     });
   
     function handleFormSubmit(form) {
@@ -23,9 +25,7 @@
         // then we update the form to reflect the results
         showErrors(form, errors || {});
         // And if all constraints pass we let the user know
-        if (!errors) {
-          showSuccess();
-        }
+        return errors;
       }
     
       // Updates the inputs with the validation errors
@@ -90,10 +90,5 @@
         block.classList.add("error");
         block.innerHTML = error;
         messages.appendChild(block);
-      }
-    
-      function showSuccess() {
-        // We made it \:D/
-        alert("Success!");
       }
   })();
