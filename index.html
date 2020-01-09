@@ -170,23 +170,26 @@
 							<h2>Get in touch</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<section>
-								<form method="post" action="#">
+								<form method="post" id="contact_form">
 									<div class="fields">
-										<div class="field half">
+										<div class="field half form-group">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
+											<div class="col-sm-5 messages"></div>
 										</div>
-										<div class="field half">
+										<div class="field half form-group">
 											<label for="email">Email</label>
 											<input type="text" name="email" id="email" />
+											<div class="col-sm-5 messages"></div>
 										</div>
-										<div class="field">
+										<div class="field form-group">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="5"></textarea>
+											<div class="col-sm-5 messages"></div>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<input type="submit" class="button" id="email_submit_button" value="Send message">
 									</ul>
 								</form>
 							</section>
@@ -212,6 +215,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/validate.min.js"></script>
+			<script src="assets/js/underscore.min.js"></script>
+			<script src="assets/js/validation.js"></script>
+
 
 	</body>
 </html>
