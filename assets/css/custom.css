@@ -14,3 +14,7 @@
 #email_submit_button {
     margin-left: 1.5em;
 }
+
+.row > .team-member {
+    width: 20%;
+}
