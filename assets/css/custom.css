@@ -18,3 +18,12 @@
 .row > .team-member {
     width: 20%;
 }
+
+.references > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 6px;
+    font-style: italic;
+    opacity: 0.65;
+}
