@@ -15,6 +15,11 @@
     margin-left: 1.5em;
 }
 
+#twitter_wrapper {
+    border-radius: 7px;
+    background-color: rgb(20,20,20);
+}
+
 .row > .team-member {
     width: 20%;
 }
