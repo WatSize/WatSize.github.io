@@ -37,6 +37,15 @@
     opacity: 0.65;
 }
 
+.linkedin_span {
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.linkedin_ref {
+    border: none;
+}
+
 #logo_image {
     width: auto;
     display:block;
