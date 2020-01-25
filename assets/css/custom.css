@@ -32,3 +32,22 @@
     font-style: italic;
     opacity: 0.65;
 }
+
+#logo_image {
+    width: auto;
+    display:block;
+    margin:auto;
+    padding-bottom: 100px;
+    width: 85%;
+}
+
+/* Logo Image */
+@media screen and (max-width: 1280px) {
+    #logo_image {
+        width: auto;
+        padding-bottom: 0px;
+        max-height: 44px;
+        margin-right: 40px;
+        margin-top: 7px;
+    }
+}
