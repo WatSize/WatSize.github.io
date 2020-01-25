@@ -2,7 +2,11 @@
     text-align:center;
 }
   
-.profile-name, .profile-image {
+.profile-image {
+    margin: 0 0 0 0 !important;
+}
+
+.profile-name {
     margin: 0 0 0.5em 0 !important;
 }
 
