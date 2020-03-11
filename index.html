@@ -42,6 +42,9 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
+							<video id="point_cloud_video" autoplay muted loop>
+								<source src="videos/point_cloud.mp4" type="video/mp4">
+							</video>
 							<h1>WatSize</h1>
 							<p>Reducing clothing size ambiguity through body scanning and machine learning.</p>
 							<ul class="actions">
@@ -255,6 +258,10 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script>
+				var v = document.getElementById("point_cloud_video"); 
+				v.playbackRate = 2;
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

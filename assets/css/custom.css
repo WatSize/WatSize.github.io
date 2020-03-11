@@ -54,7 +54,20 @@
     width: 85%;
 }
 
-/* Logo Image */
+#intro_logo {
+    display:block;
+    margin:auto;
+    margin-top: 0;
+    width: 40%;
+}
+
+#point_cloud_video {
+    display: block;
+    margin: 0 auto;
+    width: 530px;
+    height: 530px;
+}
+
 @media screen and (max-width: 1280px) {
     #logo_image {
         width: auto;
@@ -62,5 +75,17 @@
         max-height: 44px;
         margin-right: 40px;
         margin-top: 7px;
+    }
+    #point_cloud_video {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #point_cloud_video {
+        width: 320px;
+        height: 320px;
     }
 }
