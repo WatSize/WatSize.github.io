@@ -64,8 +64,8 @@
 #point_cloud_video {
     display: block;
     margin: 0 auto;
-    width: 530px;
-    height: 530px;
+    width: 70vw;
+    height: 60vh;
 }
 
 @media screen and (max-width: 1280px) {
@@ -77,15 +77,15 @@
         margin-top: 7px;
     }
     #point_cloud_video {
-        width: 500px;
-        height: 500px;
+        width: 70vw;
+        height: 55vh;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     #point_cloud_video {
-        width: 320px;
-        height: 320px;
+        width: 90vw;
+        height: 50vh;
     }
 }
